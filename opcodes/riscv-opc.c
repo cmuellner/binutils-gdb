@@ -1833,6 +1833,8 @@ const struct riscv_opcode riscv_opcodes[] =
 
 /* Zvkg instructions.  */
 {"vghmac.vv",   0, INSN_CLASS_ZVKG, "Vd,Vt,Vs", MATCH_VGHMACVV, MASK_VGHMACVV, match_opcode, 0},
+{"vgmult.vv",   0, INSN_CLASS_ZVKG, "Vd,Vt", MATCH_VGMULTVV, MASK_VGMULTVV, match_opcode, 0},
+{"vghash.vv",   0, INSN_CLASS_ZVKG, "Vd,Vt,Vs", MATCH_VGHASHVV, MASK_VGHASHVV, match_opcode, 0},
 
 /* Zvknh[a,b] instructions.  */
 {"vsha2ch.vv",  0, INSN_CLASS_ZVKNHA_OR_ZVKNHB, "Vd,Vt,Vs", MATCH_VSHA2CHVV, MASK_VSHA2CHVV, match_opcode, 0},
