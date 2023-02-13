@@ -24,5 +24,3 @@
 	vandn.vv v4, v8, v12, v0.t
 	vandn.vx v4, v8, a1
 	vandn.vx v4, v8, a1, v0.t
-	vandn.vi v4, v8, 15
-	vandn.vi v4, v8, -16, v0.t

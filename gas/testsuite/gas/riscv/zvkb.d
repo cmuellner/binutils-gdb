@@ -32,5 +32,3 @@ Disassembly of section .text:
 [ 	]+[0-9a-f]+:[ 	]+04860257[ 	]+vandn.vv[ 	]+v4,v8,v12,v0.t
 [ 	]+[0-9a-f]+:[ 	]+0685c257[ 	]+vandn.vx[ 	]+v4,v8,a1
 [ 	]+[0-9a-f]+:[ 	]+0485c257[ 	]+vandn.vx[ 	]+v4,v8,a1,v0.t
-[ 	]+[0-9a-f]+:[ 	]+0687b257[ 	]+vandn.vi[ 	]+v4,v8,15
-[ 	]+[0-9a-f]+:[ 	]+04883257[ 	]+vandn.vi[ 	]+v4,v8,-16,v0.t

@@ -1829,7 +1829,6 @@ const struct riscv_opcode riscv_opcodes[] =
 {"vrev8.v",    0, INSN_CLASS_ZVKB, "Vd,VtVm", MATCH_VREV8V, MASK_VREV8V, match_opcode, 0},
 {"vandn.vv",   0, INSN_CLASS_ZVKB, "Vd,Vt,VsVm", MATCH_VANDNVV, MASK_VANDNVV, match_opcode, 0},
 {"vandn.vx",   0, INSN_CLASS_ZVKB, "Vd,Vt,sVm", MATCH_VANDNVX, MASK_VANDNVX, match_opcode, 0},
-{"vandn.vi",   0, INSN_CLASS_ZVKB, "Vd,Vt,ViVm", MATCH_VANDNVI, MASK_VANDNVI, match_opcode, 0},
 
 /* Zvkg instructions.  */
 {"vghsh.vv",   0, INSN_CLASS_ZVKG, "Vd,Vt,Vs", MATCH_VGHSHVV, MASK_VGHSHVV, match_opcode, 0},
